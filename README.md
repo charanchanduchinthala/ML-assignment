@@ -1,9 +1,6 @@
-# Tutorial 09 — Gaussian Mixture Models & EM Algorithm
-## Probabilistic Clustering — When K-Means Is Not Enough
+# Tutorial Gaussian Mixture Models & EM Algorithm
+## Probabilistic Clustering When K-Means Is Not Enough
 
-**University of Hertfordshire | MLNN Assignment 2025**  
-**Colour theme:** Burgundy (`#722F37`) / Sage Green (`#7FB069`)  
-**GitHub:** https://github.com/yourusername/ml-tutorials/tree/main/tutorial-09
 
 ---
 
@@ -25,9 +22,9 @@ This tutorial covers GMMs and the EM Algorithm from theory to real-data applicat
 
 | File | Description |
 |------|-------------|
-| `tutorial_09_gmm_em.pdf` | Primary submission — PDF (<2000 words, 5 figures) |
+| `tutorial_09_gmm_em.pdf` | Primary submission PDF (<2000 words, 5 figures) |
 | `tutorial_09_gmm_em.docx` | Word source document |
-| `tutorial_09_gmm_em.ipynb` | Jupyter notebook — full runnable code, alt-text, references |
+| `tutorial_09_gmm_em.ipynb` | Jupyter notebook full runnable code, alt-text, references |
 | `README.md` | This file |
 | `LICENSE` | MIT Licence |
 | `fig1_em_in_action.png` | 2×2 grid: random init → E-step → 5 iters → converged |
@@ -54,7 +51,7 @@ jupyter notebook tutorial_09_gmm_em.ipynb
 
 Run all cells top to bottom (`Kernel → Restart & Run All`).  
 All 5 figures regenerate and save as `.png` files.  
-The UCI Iris dataset loads from `sklearn.datasets` — no download needed.
+The UCI Iris dataset loads from `sklearn.datasets` no download needed.
 
 ---
 
@@ -81,12 +78,12 @@ BIC = -2 log L + p log N    (choose K that minimises BIC)
 
 ## Accessibility
 
-- **Colourblind-safe palette** — burgundy (`#722F37`) and sage green (`#7FB069`) are distinguishable under deuteranopia, protanopia and tritanopia
+- **Colourblind-safe palette**  burgundy (`#722F37`) and sage green (`#7FB069`) are distinguishable under deuteranopia, protanopia and tritanopia
 - **Distinct marker shapes** on all scatter plots (circle `o`, square `s`, triangle `^`, diamond `D`, X marker for means)
 - **Hatch patterns** on all bar charts (`//`, `xx`, `..`, `////`, `xxxx`) — information never by colour alone
 - **Alt-text captions** printed below every figure cell in the notebook
 - **Structured H1 → H2 heading hierarchy** for screen-reader navigation
-- **High-contrast** dark (`#1A0F0F`) on light (`#FAFAF8`) — contrast ratio >14:1
+- **High-contrast** dark (`#1A0F0F`) on light (`#FAFAF8`) contrast ratio >14:1
 
 ---
 
@@ -100,4 +97,4 @@ BIC = -2 log L + p log N    (choose K that minimises BIC)
 
 ---
 
-**Licence:** MIT — see `LICENSE`
+**Licence:** MIT see `LICENSE`
